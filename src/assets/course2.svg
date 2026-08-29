@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="280" fill="url(#c2)"/>
+  <text x="250" y="80" font-family="sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">ISOMO RYA</text>
+  <text x="250" y="130" font-family="sans-serif" font-weight="900" font-size="36" fill="#facc15" text-anchor="middle">COMPUTER</text>
+  <rect x="150" y="160" width="200" height="40" rx="6" fill="#1e293b"/>
+  <text x="250" y="185" font-family="sans-serif" font-weight="bold" font-size="18" fill="#38bdf8" text-anchor="middle">VIDEO YA 2</text>
+  <circle cx="250" cy="140" r="30" fill="rgba(239, 68, 68, 0.9)"/>
+  <polygon points="242,125 265,140 242,155" fill="#ffffff"/>
+</svg>

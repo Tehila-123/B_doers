@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beninSkyReal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#beninSkyReal)"/>
+
+  {/* Cityscape Skyline Overview (Cotonou Aerial View) */}
+  <g transform="translate(0, 100)">
+    {/* Background Buildings & Roofs */}
+    <rect x="50" y="300" width="1100" height="300" fill="#cbd5e1"/>
+    
+    <!-- Elevated Highway Overpass Bridge -->
+    <path d="M0 380 L 1200 320 L 1200 360 L 0 420 Z" fill="#64748b"/>
+    <rect x="0" y="385" width="1200" height="10" fill="#334155"/>
+
+    <!-- Orange / Yellow Roof Houses in Foreground -->
+    <polygon points="500,450 650,420 700,500 550,530" fill="#f59e0b"/>
+    <polygon points="680,440 820,410 880,490 740,520" fill="#d97706"/>
+    <polygon points="300,480 440,450 490,530 350,560" fill="#b45309"/>
+    <polygon points="850,480 1000,450 1060,540 910,570" fill="#e11d48"/>
+
+    {/* Modern Blue Commercial Building */}
+    <rect x="600" y="240" width="140" height="150" fill="#0284c7"/>
+    <line x1="620" y1="240" x2="620" y2="390" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="660" y1="240" x2="660" y2="390" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="700" y1="240" x2="700" y2="390" stroke="#38bdf8" stroke-width="4"/>
+
+    <!-- Tall White Tower -->
+    <rect x="780" y="160" width="80" height="230" fill="#f8fafc"/>
+    <rect x="800" y="140" width="40" height="30" fill="#0f172a"/>
+  </g>
+</svg>

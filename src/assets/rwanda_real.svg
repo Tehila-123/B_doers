@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rwandaSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="domeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="800" height="500" fill="url(#rwandaSky)"/>
+
+  <!-- Sun Rays -->
+  <circle cx="400" cy="250" r="220" fill="rgba(250, 204, 21, 0.25)" filter="blur(30px)"/>
+
+  <!-- Convention Center Dome (Kigali Convention Centre) -->
+  <g transform="translate(400, 290)">
+    <!-- Base Building -->
+    <rect x="-160" y="-20" width="320" height="90" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Glass Facade Windows -->
+    <path d="M-140 10 L 140 10 L 120 50 L -120 50 Z" fill="#1e293b"/>
+    <line x1="-80" y1="10" x2="-70" y2="50" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="80" y1="10" x2="70" y2="50" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+
+    <!-- Rainbow Striped Dome -->
+    <path d="M-120 -20 Q 0 -180 120 -20 Z" fill="url(#domeGrad)" stroke="#ffffff" stroke-width="3"/>
+    <path d="M-90 -20 Q 0 -130 90 -20 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <path d="M-50 -20 Q 0 -80 50 -20 Z" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  </g>
+
+  <!-- Foreground Road / Lights -->
+  <path d="M0 440 Q 400 360 800 440 L 800 500 L 0 500 Z" fill="#0b0f19"/>
+  <path d="M380 380 L 400 500 M420 380 L 440 500" stroke="#facc15" stroke-width="4" opacity="0.8"/>
+</svg>

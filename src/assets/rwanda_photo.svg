@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rwandaSkyReal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a3b5c"/>
+      <stop offset="50%" stop-color="#4d6b94"/>
+      <stop offset="100%" stop-color="#829ab1"/>
+    </linearGradient>
+    <linearGradient id="domeGradReal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="25%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="75%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1200" height="675" fill="url(#rwandaSkyReal)"/>
+
+  {/* Left Modern Curved Building */}
+  <g transform="translate(0, 50)">
+    <path d="M0 625 L0 120 Q 150 90 320 180 L 320 625 Z" fill="#332211"/>
+    <!-- Vertical Facade Fin Colors -->
+    <path d="M40 625 L40 145 M80 625 L80 155 M120 625 L120 165 M160 625 L160 175 M200 625 L200 185 M240 625 L240 195 M280 625 L280 205" stroke="#f97316" stroke-width="8" opacity="0.9"/>
+    <path d="M60 625 L60 150 M100 625 L100 160 M140 625 L140 170 M180 625 L180 180 M220 625 L220 190 M260 625 L260 200" stroke="#facc15" stroke-width="6" opacity="0.9"/>
+  </g>
+
+  {/* Road & Street */}
+  <path d="M280 675 Q 520 480 900 675 Z" fill="#1e293b"/>
+  <path d="M570 545 Q 610 510 650 545" fill="none" stroke="#ffffff" stroke-width="4" stroke-dasharray="12,8"/>
+
+  {/* Kigali Convention Centre Dome on Right */}
+  <g transform="translate(880, 420)">
+    <!-- Base Structure -->
+    <rect x="-220" y="-40" width="440" height="130" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-width="2"/>
+    <path d="M-200 0 L 200 0 L 180 80 L -180 80 Z" fill="#1e293b"/>
+    <line x1="-120" y1="0" x2="-100" y2="80" stroke="#3b82f6" stroke-width="3" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="80" stroke="#3b82f6" stroke-width="3" opacity="0.7"/>
+    <line x1="120" y1="0" x2="100" y2="80" stroke="#3b82f6" stroke-width="3" opacity="0.7"/>
+
+    <!-- Rainbow Striped Dome -->
+    <path d="M-170 -40 Q 0 -260 170 -40 Z" fill="url(#domeGradReal)" stroke="#ffffff" stroke-width="4"/>
+    <path d="M-130 -40 Q 0 -190 130 -40 Z" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+    <path d="M-80 -40 Q 0 -120 80 -40 Z" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.85"/>
+  </g>
+
+  <!-- Palm Trees & Canopy Overpass -->
+  <path d="M300 440 Q 550 360 850 440" fill="none" stroke="#0f172a" stroke-width="16" opacity="0.8"/>
+</svg>

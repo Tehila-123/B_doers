@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="angolaSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#angolaSky)"/>
+  <!-- Atlantic Bay / Luanda Bay Curve -->
+  <path d="M0 300 Q 400 450 800 250 L 800 500 L 0 500 Z" fill="#0369a1"/>
+  <path d="M0 350 Q 400 480 800 300 L 800 500 L 0 500 Z" fill="#075985"/>
+  <!-- City Skyline on Right Curve -->
+  <rect x="550" y="150" width="40" height="150" fill="#f8fafc"/>
+  <rect x="610" y="100" width="50" height="200" fill="#e2e8f0"/>
+  <rect x="680" y="180" width="45" height="120" fill="#cbd5e1"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="burundiSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="60%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#burundiSky)"/>
+  <!-- Rolling Hills & Greenery -->
+  <path d="M0 350 Q 200 280 400 350 Q 600 420 800 350 L 800 500 L 0 500 Z" fill="#166534"/>
+  <path d="M0 400 Q 300 320 800 400 L 800 500 L 0 500 Z" fill="#14532d"/>
+  <!-- Red Roof Houses -->
+  <polygon points="380,360 410,340 440,360" fill="#dc2626"/>
+  <rect x="390" y="360" width="40" height="30" fill="#f8fafc"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beninSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#beninSky)"/>
+
+  <!-- Waterfront / Ganvie Stilt Village Aesthetic -->
+  <g transform="translate(0, 200)">
+    <!-- Water / Lagoon -->
+    <rect x="0" y="100" width="800" height="200" fill="#0369a1"/>
+    <path d="M0 120 Q 200 100 400 120 Q 600 140 800 120 L 800 300 L 0 300 Z" fill="#0284c7"/>
+
+    <!-- Stilts & Thatched Roof Houses -->
+    <!-- House 1 -->
+    <rect x="150" y="40" width="120" height="80" fill="#78350f"/>
+    <polygon points="130,40 210,-10 290,40" fill="#b45309"/>
+    <rect x="170" y="80" width="30" height="40" fill="#451a03"/>
+    <line x1="160" y1="120" x2="160" y2="200" stroke="#451a03" stroke-width="8"/>
+    <line x1="260" y1="120" x2="260" y2="200" stroke="#451a03" stroke-width="8"/>
+
+    <!-- House 2 -->
+    <rect x="480" y="30" width="140" height="90" fill="#78350f"/>
+    <polygon points="460,30 550,-20 640,30" fill="#b45309"/>
+    <rect x="520" y="70" width="35" height="50" fill="#451a03"/>
+    <line x1="500" y1="120" x2="500" y2="210" stroke="#451a03" stroke-width="8"/>
+    <line x1="600" y1="120" x2="600" y2="210" stroke="#451a03" stroke-width="8"/>
+
+    <!-- Wooden Canoe / Boat -->
+    <path d="M320 180 Q 380 190 440 180 Q 400 200 320 180 Z" fill="#451a03"/>
+  </g>
+</svg>
